@@ -6,6 +6,10 @@
     text-decoration: none;
 }       
 
+:root {
+    --squareLenght: 30;
+
+}
 
 .container {
     display: flex;    
@@ -13,8 +17,31 @@
 
 }
 
+.bodycontainer {
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.squarecontainer {
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 600px;
+    margin-top: 25px;
+}
+
+.settingscontainer {
+    flex-direction: column;
+
+}
 .squares {
     border: 1px solid black;
-    width: 30px;
-    height: 30px;
+    width:  var(--squareLength);
+    height: var(--squareLength);
+}
+
+.painted {
+    background-color: black;
+
 }
