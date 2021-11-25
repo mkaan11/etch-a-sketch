@@ -8,13 +8,16 @@
     <title>Etch-a-sketch</title>
 </head>
 <body>
-    <div class="container" id="container">
-    
-
+<div class="bodycontainer container">   
+    <div class="squarecontainer container" id="squarecontainer"> </div>
+    <div class="settingscontainer container">
+        <p>Pixel Size - Largest to Smallest</p>
+        <input type="range" min="1" max="60" value="20" class="slider" id="squareNumber">
+        <button id="clear"> Clear Board</button>
 
     </div>
 
-
+</div>     
 <script src="sketch.js"></script>
 
 </body>
